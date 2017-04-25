@@ -4,4 +4,4 @@ s3_bucket: fundsindiacodebuild
 
 site: src/
 gzip:
-  - src/
+  - .java
