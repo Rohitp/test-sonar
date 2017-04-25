@@ -1,8 +1,9 @@
 
-image: rohitp/docker-s3-push
+image: attensee/s3_website
 
 pipelines:
   default:
     - step:
         script: 
+          - apt-get install zip
           - s3_website push
