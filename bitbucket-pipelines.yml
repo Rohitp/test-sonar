@@ -1,5 +1,5 @@
 
-image: attensee/s3_website
+image: rohitp/docker-s3-push
 
 pipelines:
   default:

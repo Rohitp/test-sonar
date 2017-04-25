@@ -3,5 +3,4 @@ s3_secret: <%= ENV['S3_SECRET'] %>
 s3_bucket: fundsindiacodebuild
 
 site: src/
-gzip:
-  - .java
+
