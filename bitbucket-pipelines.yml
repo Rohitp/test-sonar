@@ -1,10 +1,6 @@
-
-image: attensee/s3_website
-
 pipelines:
   default:
     - step:
         script: 
           - apt-get install zip
           - ./zip.bash
-          - s3_website push
