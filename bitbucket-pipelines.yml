@@ -5,7 +5,7 @@ pipelines:
   default:
     - step:
         script: 
-          - api-get update
+          - apt-get update
           - apt-get install zip
           - zip -r zipped/Hello.zip src/*
           - s3_website push
