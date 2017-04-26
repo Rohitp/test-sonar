@@ -6,5 +6,5 @@ pipelines:
     - step:
         script: 
           - apt-get install zip
-          - zip.sh
+          - zip.bash
           - s3_website push
