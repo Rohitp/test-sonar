@@ -7,5 +7,6 @@ pipelines:
         script: 
           - apt-get update
           - apt-get install zip
-          - zip -r zipped/Hello.zip src/*
+          - cd src
+          - zip -r ../zipped/Hello.zip .
           - s3_website push
