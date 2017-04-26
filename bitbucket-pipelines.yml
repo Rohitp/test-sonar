@@ -9,4 +9,5 @@ pipelines:
           - apt-get install zip
           - cd src
           - zip -r ../zipped/Hello.zip .
+          - cd ..
           - s3_website push
