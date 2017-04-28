@@ -12,13 +12,13 @@ phases:
       - mkdir build
       - mkdir build/classes
       - mkdir build/jar
-      - cp appspec.yml build/appspec.yml           		  
   build:
     commands:
       - echo Build started on `date`
       - ant		  
   post_build:
     commands:
+      - cp appspec.yml build/appspec.yml
       - echo Build completed on `date`
 artifacts:
     files:
