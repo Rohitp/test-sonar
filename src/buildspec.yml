@@ -11,7 +11,8 @@ phases:
       - echo Creating directories...
       - mkdir build
       - mkdir build/classes
-      - mkdir build/jar           		  
+      - mkdir build/jar
+      - cp appspec.yml build/appspec.yml           		  
   build:
     commands:
       - echo Build started on `date`
@@ -21,4 +22,6 @@ phases:
       - echo Build completed on `date`
 artifacts:
     files:
-      - build/jar/HelloWorld.jar
+      - build/HelloWorld.jar
+      - appspec.yml
+    base-directory: build
