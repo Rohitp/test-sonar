@@ -24,4 +24,3 @@ artifacts:
     files:
       - build/HelloWorld.jar
       - build/appspec.yml
-    base-directory: build
