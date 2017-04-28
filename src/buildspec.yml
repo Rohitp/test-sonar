@@ -23,5 +23,5 @@ phases:
 artifacts:
     files:
       - build/HelloWorld.jar
-      - appspec.yml
+      - build/appspec.yml
     base-directory: build
