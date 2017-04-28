@@ -21,6 +21,7 @@ phases:
       - cp appspec.yml build/appspec.yml
       - echo Build completed on `date`
 artifacts:
+    base-directory: build
     files:
-      - build/HelloWorld.jar
-      - build/appspec.yml
+      - HelloWorld.jar
+      - appspec.yml
