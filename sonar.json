@@ -1,4 +1,4 @@
 {  
-    "sonarHost": "http://54.169.71.70:9000",
+    "sonarHost": "http://54.169.71.70",
     "sonarProjectKey": "com.funds.test.build"
 }
