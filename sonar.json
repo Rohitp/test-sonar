@@ -1,0 +1,4 @@
+{  
+    "sonarHost": "54.169.71.70:9000",
+    "sonarProjectKey": "com.funds.test.build"
+}
