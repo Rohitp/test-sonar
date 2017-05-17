@@ -1,4 +1,4 @@
 {  
-    "sonarHost": "https://build.fundsindia.com:9000",
+    "sonarHost": "http://ec2-52-221-188-106.ap-southeast-1.compute.amazonaws.com:9000",
     "sonarProjectKey": "com.funds.test.build:master"
 }
