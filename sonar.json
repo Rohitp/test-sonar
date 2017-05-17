@@ -1,4 +1,4 @@
 {  
     "sonarHost": "http://build.fundsindia.com",
-    "sonarProjectKey": "com.funds.test"
+    "sonarProjectKey": "com.funds.test.build"
 }
